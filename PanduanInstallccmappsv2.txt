@@ -1,0 +1,27 @@
+Table PO (tb_po)
+- id
+- kode_po
+- nama_proyek
+- tgl_turun_po
+
+Table SPK (tb_spk
+- id
+- id_po (foregin key dari table PO)
+- kode_spk
+- nama_barang
+- ukuran_barang
+- jumlah
+- jumlah_tambah(penambahan barang diluar spk)
+- satuan
+- tgl_pembuatan_spk(otomatis terbuat tgl saat ketika mengklik submit)
+
+passowrd mysql database
+c1k4lm4p4n
+
+install aplikasi ccmappsv2
+
+- herd laravel (untuk webserver laravel) NGINX , PHP Versi 8.4
+- mysql (untuk database terpisah dari herd laravel) mysql-installer-community-8.0.41.0
+- git (untuk menyimpan hasil aplikasi) Git-2.48.1-64-bit
+- nodejs (untuk dependencies tambahan agar dapat menginstall paket npm/npm package manager seperti composer pada php)node-v22.14.0-x64
+- visual studio code (untuk mengolah dan memprogram aplikasi)
